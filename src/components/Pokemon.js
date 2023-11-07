@@ -1,10 +1,10 @@
-export default function Pokemon() {
+export default function Pokemon({ numero, imgUrl, nombre, tipo }) {
     return (
         <div className="pokemon">
-            <p className="numero">1</p>
-            <img src="pokemon-img/002.png"/>
-            <p className="nombre">Ivysaur</p>
-            <p className="tipo">Poison, Grass</p>
+            <p className="numero">{numero}</p>
+            <img src={"pokemon-img/" + imgUrl} />
+            <p className="nombre">{nombre}</p>
+            <p className="tipo">{tipo}</p>
         </div>
     );
 }

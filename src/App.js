@@ -1,7 +1,7 @@
 import logo from './logo.png';
 import './App.css';
 import MenuNav from './components/MenuNav';
-import Pokemon from './components/Pokemon';
+import Pokedex from './components/Pokedex';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <MenuNav></MenuNav>
-        <Pokemon></Pokemon>
+        <Pokedex></Pokedex>
       </header>
     </div>
   );
