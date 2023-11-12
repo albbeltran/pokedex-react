@@ -1,3 +1,5 @@
+import Estrellas from "./Estrellas";
+
 export default function Pokemon({ numero, imgUrl, nombre, tipo }) {
     return (
         <div className="pokemon">
@@ -5,6 +7,7 @@ export default function Pokemon({ numero, imgUrl, nombre, tipo }) {
             <img src={"pokemon-img/" + imgUrl} />
             <p className="nombre">{nombre}</p>
             <p className="tipo">{tipo}</p>
+            <Estrellas></Estrellas>
         </div>
     );
 }
